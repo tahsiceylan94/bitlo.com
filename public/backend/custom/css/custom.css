@@ -1,0 +1,77 @@
+.sortable{
+    cursor: -webkit-grab; cursor: grab;
+}
+.sortable:active{
+    cursor: -webkit-grab; cursor: grabbing;
+}
+.mevcut_foto{
+    float:left;margin-top: 15px;
+}
+.mevcut_foto label{
+    float:left; width: 100%;
+}
+.mevcut_foto img{
+    float:left;
+}
+.var{
+    color: #00c714;
+}
+.yok{
+    color: #ff0000;
+}
+.table > tbody > tr > td{
+    vertical-align: middle;
+}
+.fa.fa-trash-o{
+    color: #ff3440;
+}
+
+.login-page, .register-page{
+    background: url(/images/login/bg-login.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-filter: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.valueArea iframe{
+    width: 300px;
+    height: 85px;
+}
+tr:hover td {
+    background: #e3e3e3;
+}
+.table-striped>tbody>tr:nth-of-type(odd){
+    background-color: #f1f1f1;
+}
+/*.skin-blue .main-header .navbar{
+    background-color: #00b5ce;
+}
+.skin-blue .main-header .logo {
+    background-color: #009bb1;
+}
+.sidebar-toggle:hover{
+    background-color: #006a79;
+}
+.skin-blue .main-header .logo:hover{
+    background-color: #006a79;
+}*/
+
+.bannerTitle{
+    font-size: 30px;
+    font-weight: 600;
+}
+.activeLineAdd{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 3px 0 1px 0;
+}
+.passiveLineAdd{
+    font-size: 16px;
+    font-weight: 600;
+}
+.homeLinks{
+    color:#fff;
+}
+.homeLinks:hover{
+    color: #eeeeee;
+}
